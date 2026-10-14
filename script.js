@@ -119,8 +119,6 @@ if ('IntersectionObserver' in window && !motionPreference.matches) {
   motionPreference.addEventListener('change', event => {
     if (event.matches) document.querySelectorAll('.reveal-ready').forEach(element => element.classList.add('revealed'));
   });
-  // Defensive fallback: never leave real content inaccessible after an observer failure.
-  setTimeout(() => document.querySelectorAll('.reveal-ready:not(.revealed)').forEach(element => element.classList.add('revealed')), 18000);
 }
 
 if (finePointer.matches) {
