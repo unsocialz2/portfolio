@@ -1,6 +1,6 @@
 # Ahmed Emad — Cybersecurity Portfolio
 
-An original, responsive portfolio covering offensive security, SOC experience, and software development. Written in plain HTML, CSS, and JavaScript; no build step or package installation required.
+An original, animated and responsive portfolio covering offensive security, SOC experience, and software development. Written in plain HTML, CSS, and JavaScript; no build step or package installation required.
 
 ## Content
 
@@ -11,8 +11,13 @@ An original, responsive portfolio covering offensive security, SOC experience, a
 - Links to LinkedIn, GitHub, TryHackMe, and Hack The Box
 - Downloadable original CV
 - Dark/light themes, responsive navigation, email copying, and Cairo local time
+- Highlight cards for security focus, Telecom Egypt SOC experience, and the completed HTB path
+- Featured ReconX project, linked to its public repository
+- Animated role typing, ambient network canvas, floating badges, scroll reveals, card tilt and tool ticker
+- Local interactive profile terminal: help, whoami, skills, experience, projects, education, contact, clear
+- Reduced-motion support and animation pausing in background tabs
 
-The supplied AhmedEmadCV.pdf is the authoritative source for career details and dates. Public LinkedIn profile information was cross-checked where accessible. No client findings, invented project outcomes, testimonials, proficiency percentages, or unearned certification claims are included. The design is original; no code or assets were copied from the inspiration site.
+The supplied AhmedEmadCV.pdf is the authoritative source for career details and dates. Public LinkedIn profile information was cross-checked where accessible. The featured ReconX description is grounded in its public repository README. No client findings, invented project outcomes, testimonials, proficiency percentages, or unearned certification claims are included. The design is original; no code or assets were copied from the inspiration site.
 
 ## Run locally
 
@@ -37,4 +42,4 @@ Profile links intentionally point to WinchesterxZ, as provided in the CV; hostin
 
 ## Validation
 
-JavaScript syntax, HTML anchors/local resources, SVG parsing, CSS brace structure, and interactive script behavior were checked locally. Browser visual QA was not available in the build environment.
+JavaScript syntax, HTML anchors/local resources, SVG parsing, CSS brace structure, and interactive script behavior were checked locally. The published site is reviewed through browser interaction after deployment; a separate local preview is not available in the build environment.
